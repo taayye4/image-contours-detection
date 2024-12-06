@@ -17,7 +17,7 @@ cv2.drawContours(contour_image, contours, -1, (0, 255, 0), 3)
 
 # Out contour image
 plt.imshow(cv2.cvtColor(contour_image, cv2.COLOR_BGR2RGB))
-plt.title("Contours Detected")
+plt.title("Image with Contour Highlight")
 plt.axis("off")
 plt.show()
 
